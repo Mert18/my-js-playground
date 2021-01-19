@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* #f0db4f,  #323330*/
+body {
+    background-color: #323330;
+    font-family: "Fredoka One", cursive;
+    letter-spacing: 0.1rem;
+}
+
+body .header {
+    color: #f0db4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.144);
+}
+
+body .header .header__icons {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+main .content {
+    width: 70%;
+    border-left: 2px solid #f0db4f;
+    border-right: 2px solid #f0db4f;
+    display: flex;
+    justify-content: center;
+}
+
+main .content .projects {
+    margin: 1rem;
+}
+
+main .content .projects .project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .content .projects .project .left {
+    flex: 1;
+    padding: 1rem;
+}
+main .content .projects .project .right {
+    flex: 1;
+    padding: 1rem;
+}
