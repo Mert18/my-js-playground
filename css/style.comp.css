@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  font-family: 'Rubik', sans-serif; }
+
+.home {
+  text-transform: uppercase; }
+  .home__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .home__header__title {
+      text-align: center; }
+    .home__header__links ul {
+      list-style: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .home__header__links ul li {
+        padding: 1rem;
+        border-radius: 2rem; }
+        .home__header__links ul li:hover {
+          cursor: pointer;
+          background-color: #f8f4ff; }
+  .home__main {
+    width: 100%; }
+    .home__main .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      .home__main .projects .col-3 {
+        display: flex;
+        justify-content: center;
+        width: 100%; }
+        .home__main .projects .col-3 .project {
+          width: 18%;
+          height: 15em;
+          margin: 2rem;
+          padding: 2rem;
+          text-align: center;
+          line-height: 4rem;
+          -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+          /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          -moz-box-shadow: 3px 3px 5px 6px #ccc;
+          /* Firefox 3.5 - 3.6 */
+          box-shadow: 3px 3px 5px 6px #ccc; }
+          .home__main .projects .col-3 .project:hover {
+            cursor: pointer; }
